@@ -1,0 +1,138 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+a:link, :visited {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+a:hover,a:active {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a.authorurl:link, a.authorurl:visited {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+a.authorurl:hover, a.authorurl:active {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.heavy {
+    font-weight: bold;
+}
+.papertitle {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.p-pubvenue {
+    margin-bottom: 0;
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-inline-item  {
+    display: inline;
+}
+
+.list-inline-item >li::after {
+    display: inline;
+    content: none;
+}
+
+.list-middot > li:not(:last-child)::after {
+    content: " • ";
+}
+
+.publist {
+  padding-left: 1.5em;
+  list-style: none;
+}
+
+.newslist {
+  padding-left: 1.5em;
+  list-style: none;
+}
+
+.newslist > li:not(:first-child) {
+    margin-top: 1em;
+}
+
+.li-news:before {
+  content: "\f069";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.5em; /* same as padding-left set on li */
+  width: 1.5em; /* same as padding-left set on li */
+}
+
+.intlist {
+  padding-left: 1.5em;
+  list-style: none;
+}
+
+.intlist > li:not(:first-child) {
+    margin-top: 1em;
+}
+
+.li-int:before {
+  content: "\f069"; /* f0eb */ 
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.5em; 
+  width: 1.5em; 
+}
+
+
+.biolist {
+  padding-left: 1.5em;
+  list-style: none;
+}
+
+.biolist > li:not(:first-child) {
+    margin-top: 1em;
+}
+
+.li-bio:before {
+  content: "\f069"; /* f0eb */ 
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.5em; 
+  width: 1.5em; 
+}
+
+
+
+.li-int:hover {
+  content: "\f0eb";
+}
+
+.publist > li:not(:first-child) {
+    margin-top: 1em;
+}
+
+.li-pub-closed:before {
+  content: "\f0da";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.5em; /* same as padding-left set on li */
+  width: 1.5em; /* same as padding-left set on li */
+}
+
+.li-pub-open:before {
+  content: "\f0d7"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.5em; /* same as padding-left set on li */
+  width: 1.5em; /* same as padding-left set on li */
+}
+
+.page-footer, .page-header {
+    padding: 4px;
+}
